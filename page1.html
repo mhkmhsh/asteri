@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="page1.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+ 
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<nav>
+  <ul>
+  <a href="index.html">  <li>Home  </li></a>
+   <a href="page2.html"> <li>Menu   </li> </a>
+   <a href="page3.html"> <li>The Story</li>  </a>
+
+   <a href="page5.html"> <li> Merch</li> </a>
+    <a > <li> ASTERI</li> </a>
+    <li class="slide"></li>
+  </ul>
+</nav>
+<section>
+  <div class="title"><span> A S T E R I </span><span> the sun is also a star </a></span></div>
+</section>
+
+
+
+  <script src="https://codepen.io/shshaw/pen/QmZYMG.js"></script>
+  <script src="script.js"></script>
+  <script>
+    (function($){
+  // variables
+  elementWidth = $('ul').width(),
+  containerWidth = $('nav').width(),
+  difference = elementWidth-containerWidth,
+  finalWidth = difference * 1.5,
+  element = $('ul');
+  
+  // active on click
+  $('li').on('click', function(){
+    $('li').removeClass('active');
+    $(this).addClass('active');
+  });
+  
+})(jQuery);
+  </script>
+
+</body>
+
+</html>
