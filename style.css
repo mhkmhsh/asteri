@@ -147,7 +147,7 @@
     }
   }
   
-  // Replay animation!
+// Replay animation!
   body:active * {
     animation: none !important;
   }
